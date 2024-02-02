@@ -26,7 +26,7 @@ public class TicTacToeTrainer
         playerO.SavePolicy("tictactoe_policy_o.pkl");
     }
 
-    private void PlayGame()
+    public void PlayGame()
     {
         TicTacToeAgent currentPlayer = playerX;
 
